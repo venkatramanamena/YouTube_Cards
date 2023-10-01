@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    
+    
+}
+.headerDiv{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    z-index: 10;
+    background-color: white;
+    box-shadow: 2px 1px 3px rgb(166, 164, 164);
+}
+.serach{
+    display: flex;
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(131, 131, 129);
+    border-radius: 20px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+}
+.serach input{
+    border:none;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    padding:  15px auto;
+    align-items: center;
+    border-radius: 20px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 18px;
+    background-color: rgba(219, 219, 219, 0.332);
+   
+}
+.serch{
+    text-align: center;
+    align-items: center;
+    margin-top:7px ;
+    margin-left: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.V{
+    color: white;
+    background-color: rgb(222, 145, 2);
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto 20px;
+    
+}
+
+.vv{
+    padding-left:5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: 23px;
+}
+.details{
+    
+    width: 300px;
+    margin: 15px 20px ;
+
+    
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+   
+}
+.thumbnailUrl{
+    width: 100%;
+    height: 190px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.top img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.flx{
+    display: flex;
+    justify-content: space-between;
+}
+.lkvw{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    align-items: center;
+    text-align: center;
+}
+.lkvw h5{
+    margin-top: 3px;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    text-align: justify;
+    margin: 0px 10px;
+}
+#flex{
+    width: calc(100%-40px);
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-top: 45px;
+    margin-left: 110px;
+    margin-right: 110px
+   
+   
+}
